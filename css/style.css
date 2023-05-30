@@ -21,6 +21,10 @@ section{
     background-color: lightblue;
     border: 2px dotted black;
 }
-.nested{
-    height: 100%;
+.box-times-3{
+    height: 150px;
+    background-color: lightcoral;
+    border: 2px dotted greenyellow;
+    padding: 5px;
+    margin: 5px 0;
 }

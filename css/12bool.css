@@ -131,6 +131,45 @@
     margin-left: calc((100% / 12) * 1);
 }
 
+/* utility */
+
+.nested-row{
+    /* used when a col has another row inside
+     to give height to the content within*/
+    height: 100%;
+}
+
+.align-start{
+    justify-content: flex-start;
+}
+
+.align-center{
+    justify-content: center;
+}
+
+.align-end{
+    justify-content: end;
+}
+
+.align-top{
+    align-items: flex-start;
+}
+
+.align-middle{
+    align-items: center;
+}
+
+.align-bottom{
+    align-items: flex-end;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
 
 
 /*  
@@ -255,7 +294,39 @@
         margin-left: calc((100% / 12) * 1);
     }
     
+    /* utilities */
 
+    .align-sm-start{
+        justify-content: flex-start;
+    }
+    
+    .align-sm-center{
+        justify-content: center;
+    }
+    
+    .align-sm-end{
+        justify-content: end;
+    }
+
+    .align-sm-top{
+        align-items: flex-start;
+    }
+    
+    .align-sm-middle{
+        align-items: center;
+    }
+    
+    .align-sm-bottom{
+        align-items: flex-end;
+    }
+
+    .space-sm-around{
+        justify-content: space-around;
+    }
+    
+    .space-sm-between{
+        justify-content: space-between;
+    }
 }
 
 
@@ -375,6 +446,39 @@
         margin-left: calc((100% / 12) * 1);
     }
     
+     /* utilities */
+
+     .align-md-start{
+        justify-content: flex-start;
+    }
+    
+    .align-md-center{
+        justify-content: center;
+    }
+    
+    .align-md-end{
+        justify-content: end;
+    }
+
+    .align-md-top{
+        align-items: flex-start;
+    }
+    
+    .align-md-middle{
+        align-items: center;
+    }
+    
+    .align-md-bottom{
+        align-items: flex-end;
+    }
+
+    .space-md-around{
+        justify-content: space-around;
+    }
+    
+    .space-md-between{
+        justify-content: space-between;
+    }
 
 }
 
@@ -498,5 +602,37 @@
         margin-left: calc((100% / 12) * 1);
     }
     
+     /* utilities */
 
+     .align-lg-start{
+        justify-content: flex-start;
+    }
+    
+    .align-lg-center{
+        justify-content: center;
+    }
+    
+    .align-lg-end{
+        justify-content: end;
+    }
+
+    .align-lg-top{
+        align-items: flex-start;
+    }
+    
+    .align-lg-middle{
+        align-items: center;
+    }
+    
+    .align-lg-bottom{
+        align-items: flex-end;
+    }
+
+    .space-lg-around{
+        justify-content: space-around;
+    }
+    
+    .space-lg-between{
+        justify-content: space-between;
+    }
 }
